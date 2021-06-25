@@ -3,13 +3,13 @@ body {
 }
 
 #calc {
-    border: 5px solid black;
-    width: 600px;
+    border: 4px solid black;
+    width: 400px;
     margin: 20px auto 0 auto;
 }
 
 #screen {
-    background-color: lightgray;
+    background-color: rgb(137 187 193);
     height: 80px;
     text-align: right;
     font-size: 78px;
@@ -25,11 +25,13 @@ body {
 
 .key {
     cursor: pointer;
-    border: 1px solid black;
     box-sizing: border-box;
     width: 25%;
     padding: 20px 10px;
     /* Shortest way to center an element vertically and horizontally */
     display: grid;
     place-items: center;
+}
+.key:hover{
+    transform: scale(1.04);
 }
